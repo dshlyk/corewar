@@ -1,0 +1,38 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/sbruen/Desktop/1/includes/corewar.h
+stdio.h
+/Users/sbruen/Desktop/1/includes/stdio.h
+../libft/includes/libft.h
+/Users/sbruen/Desktop/1/libft/includes/libft.h
+op.h
+/Users/sbruen/Desktop/1/includes/op.h
+
+/Users/sbruen/Desktop/1/includes/op.h
+
+/Users/sbruen/Desktop/1/libft/includes/libft.h
+string.h
+-
+stdlib.h
+-
+unistd.h
+-
+sys/types.h
+-
+sys/uio.h
+-
+fcntl.h
+-
+math.h
+-
+
+/Users/sbruen/Desktop/1/srcs/main.c
+../includes/corewar.h
+/Users/sbruen/Desktop/1/includes/corewar.h
+

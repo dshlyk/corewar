@@ -1,0 +1,97 @@
+
+/*
+ t_lexem		*start_write_command(int fd, t_lexem *test, t_label *labels)
+{
+	int 	i;
+	int 	index;
+	t_lexem	*tmp;
+	char 	*types;
+	int     cur_pos_op;
+
+    cur_pos_op = test->position;
+	types = ft_strnew(8);
+	index = index_detect(test->value);
+	write_bytes(fd, g_operations[index].opcode, 1);
+	test = test->next;
+	tmp = test;				//запоминаем позицию первого аргумента
+	i = 0;
+	if (g_operations[index].codage)	//если есть кодэдж то хуярим его код
+	{
+		while (i < g_operations[index].count_args)
+		{
+			if (test->type == 7)
+				test = test->next;
+			else {
+				i++;
+				if (test->type == 6)
+					types = ft_strcat(types, "01");
+				else if (test->type == 8 || test->type == 9)
+					types = ft_strcat(types, "10");
+				else if (test->type == 10 || test->type == 11)
+					types = ft_strcat(types, "11");
+				test = test->next;
+			}
+		}
+		if (i == 3)
+			types = ft_strcat(types, "00");
+		if (i == 2)
+			types = ft_strcat(types, "0000");
+		if (i == 1)
+			types = ft_strcat(types, "000000");
+
+		write_bytes(fd, ft_atoi_base(types, 2), 1);        //записали коды аргументов
+		free(types);
+		test = tmp;		//идем обратно к первому аргументу
+		i = 0;
+	}
+
+
+	char *label_name;
+
+	while (i < g_operations[index].count_args)
+	{
+		if (test->type == 6)
+		{
+			write_bytes(fd, ft_atoi(ft_strsub(test->value, 1, ft_strlen(test->value) - 1)), 1);
+			i++;
+		}
+		else if (test->type == 8 || test->type == 9)
+		{
+		    i++;
+            if (test->type == 9)        //DIR_LABEL
+            {
+                while (labels->prev)
+                    labels = labels->prev;
+                while (labels)
+                {
+                    label_name = ft_strsub(test->value,2,ft_strlen(test->value) - 2);
+                    if (ft_strcmp(label_name, labels->value) == 0)
+                    {
+                        if (cur_pos_op < labels->byte)
+                            write_bytes(fd, labels->byte, g_operations[index].label_size);
+                        else if (cur_pos_op > labels->byte)
+                        {
+                            cur_pos_op = -cur_pos_op;
+                            write_bytes(fd, cur_pos_op, g_operations[index].label_size);
+                        }
+                    }
+                    labels = labels->next;
+                }
+            }
+            else if (test->type == 8)   //DIR
+            {
+                write_bytes(fd, ft_atoi(ft_strsub(test->value, 1, ft_strlen(test->value) - 1)), g_operations[index].label_size);
+            }
+		}
+        else if (test->type == 10 || test->type == 11)
+        {
+            i++;
+
+        }
+		test = test->next;
+	}
+
+
+	return (test);
+}
+ */
