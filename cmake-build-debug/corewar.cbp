@@ -8,44 +8,44 @@
 		<Option virtualFolders="CMake Files\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/ksnow-be/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/Users/sbruen/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/ksnow-be/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/Users/sbruen/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/ksnow-be/Desktop/corewar/cmake-build-debug"/>
+				<Option working_dir="/Users/sbruen/Desktop/corewar/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar">
-				<Option output="/Users/ksnow-be/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ksnow-be/Desktop/corewar/cmake-build-debug"/>
+				<Option output="/Users/sbruen/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sbruen/Desktop/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ksnow-be/Desktop/corewar/includes"/>
-					<Add directory="/Users/ksnow-be/Desktop/corewar/libft/includes"/>
+					<Add directory="/Users/sbruen/Desktop/corewar/includes"/>
+					<Add directory="/Users/sbruen/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -54,21 +54,21 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="corewar/fast">
-				<Option output="/Users/ksnow-be/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/ksnow-be/Desktop/corewar/cmake-build-debug"/>
+				<Option output="/Users/sbruen/Desktop/corewar/cmake-build-debug/corewar" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/Users/sbruen/Desktop/corewar/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/Users/ksnow-be/Desktop/corewar/includes"/>
-					<Add directory="/Users/ksnow-be/Desktop/corewar/libft/includes"/>
+					<Add directory="/Users/sbruen/Desktop/corewar/includes"/>
+					<Add directory="/Users/sbruen/Desktop/corewar/libft/includes"/>
 					<Add directory="/usr/local/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/clang/9.0.0/include"/>
 					<Add directory="/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include"/>
@@ -77,362 +77,344 @@
 					<Add directory="/Library/Frameworks"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
-					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/ksnow-be/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 corewar/fast"/>
+					<CompileFile command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -j4 -f &quot;/Users/sbruen/Desktop/corewar/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/includes/corewar.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/includes/corewar.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/includes/op.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/includes/op.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/ac.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_atoi.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/flags.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_bzero.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/ft_printf.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isalnum.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/initdata.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isalpha.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/libft.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isascii.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/includes/ml.h">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isdigit.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/accuracy.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isprint.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/conver.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_isspace.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/field_width.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_itoa.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/flags1.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstadd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/flags2.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/flags3.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstdelone.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_abs.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstiter.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_atoi.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstmap.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_bool.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_lstnew.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_bzero.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memalloc.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_fabs.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memccpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_floor.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_fpart.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memcmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_free_mas.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memcpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_fuldel.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_ipart.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memmove.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_isalnum.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_memset.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_isalpha.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/buffer.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_isascii.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/checks.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_isdigit.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_ltoa.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_isprint.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_parse.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_itoa.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_print_fl.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_itoabase.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_print_scp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_itoabase_size_p.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_printf.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_itoabasell.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_printf_diox.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lenstrm.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/ft_utoa.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstadd.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_printf/utils.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstadend.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putchar.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstdel.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putchar_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstdelone.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putendl.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstiter.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putendl_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstmap.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putnbr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_lstnew.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putnbr_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_max.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memalloc.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_putstr_fd.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memccpy.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_str_is_alpha.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memchr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_str_is_lowercase.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memcmp.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_str_is_numeric.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memcpy.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_str_is_printable.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memdel.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_str_is_uppercase.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memmove.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strcapitalize.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_memset.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strcat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_min.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_printf.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strclr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putchar.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strcmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putchar_fd.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strcpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putendl.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strcut.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putendl_fd.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strdel.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putnbr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strdup.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putnbr_fd.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strequ.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putstr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_striter.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_putstr_fd.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_striteri.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_rfpart.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strjoin.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_round.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strlcat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_str2len.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strlen.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strcat.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strlowcase.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strchr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strmap.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strclen.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strmapi.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strclr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strncat.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strcmp.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strncmp.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strcpy.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strncpy.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strdel.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strnequ.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strdup.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strnew.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strequ.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strnstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_striter.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strrchr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_striteri.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strsplit.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strjoin.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strstr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strlcat.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strsub.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strlen.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strtrim.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strmap.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_strupcase.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strmapi.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_tolower.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strncat.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/ft_toupper.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strncmp.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/get_next_line.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strncpy.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/includes/ft_printf.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strnequ.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/libft/includes/libft.h">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strnew.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/addit_funcs.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strnstr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/aleh_clean.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strrchr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/byte.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strsplit.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_arguments.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strstr.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_champion.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strsub.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_helpers.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_strtrim.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_instructions.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_swap.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_label.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_tolower.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_pct.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ft_toupper.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/check_separator.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/get_next_line.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/errors.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/htlpers1.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/help_funcs.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/htlpers2.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/inits.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/htlpers3.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/labels.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ml_c_l.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/lexem_oth.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ml_h.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/lexems.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ml_hh.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/lexems_frs.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ml_l.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/lexems_sec.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/ml_ll.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/lexems_thr.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/sv_zveno.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/main.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_csp.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/op.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_dioux.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/print.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_f.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/setters.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_fs.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/sizing.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_proc.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/start_checking.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/libft/srcs/type_updupoupu.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/take_lex.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/ALEX.c">
+		<Unit filename="/Users/sbruen/Desktop/corewar/srcs/write_to_file.c">
 			<Option target="corewar"/>
 		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/byte.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/errors.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/inits.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/main.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/op.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/srcs/test_lexem.c">
-			<Option target="corewar"/>
-		</Unit>
-		<Unit filename="/Users/ksnow-be/Desktop/corewar/CMakeLists.txt">
+		<Unit filename="/Users/sbruen/Desktop/corewar/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
 	</Project>
